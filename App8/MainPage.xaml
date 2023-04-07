@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App8.MainPage">
+
+    <StackLayout>
+        <!--<Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
+        <Label Text="F" FontSize="12" FontFamily="arial"></Label>
+
+        <Label Text="Enter Height (in inches)"></Label>
+        <Editor x:Name="height" Placeholder="Height (inches)"></Editor>
+
+        <Label Text="Enter weight (in pounds)"></Label>
+        <Editor x:Name="weight" Placeholder="Weight (lbs)"></Editor>
+        
+        --><!--<Button Text="Calculate BMI" Clicked="function"></Button>--><!--
+
+        <Button Text="Click Me" Clicked="Handle_Clicked" />-->
+
+        <Editor x:Name="Height" Placeholder="Please enter your height in inches" />
+        <Editor x:Name="Weight" Placeholder="Please enter your weight in pounds" />
+        <Label x:Name="alabel" />
+        <Button Text="Caculate" Clicked="Handle_Clicked" />
+
+    </StackLayout>
+
+</ContentPage>
